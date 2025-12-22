@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(./gradlew assembleDebug:*)",
+      "Bash(./gradlew test:*)",
+      "Bash(cat:*)",
+      "Bash(git stash:*)",
+      "Bash(git diff --stat)",
+      "Bash(git log --oneline -5)",
+      "Bash(git status)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
